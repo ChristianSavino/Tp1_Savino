@@ -46,5 +46,15 @@ namespace Tp1_Savino
             {
             }
         }
+
+        public void RevisarEquipo()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void DarEquipo()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

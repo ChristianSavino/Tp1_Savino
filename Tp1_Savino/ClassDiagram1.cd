@@ -4,35 +4,44 @@
     <Position X="8.785" Y="8.442" Height="1.88" Width="6.072" />
   </Comment>
   <Class Name="Tp1_Savino.Deposito">
-    <Position X="22.75" Y="12.5" Width="3.25" />
+    <Position X="24.25" Y="12.5" Width="4.5" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
     <AssociationLine Name="Persona" Type="Tp1_Savino.Persona" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="22.75" Y="12.711" />
-        <Point X="22.375" Y="12.711" />
-        <Point X="22.375" Y="11.748" />
-        <Point X="21.739" Y="11.748" Type="JumpStart" />
-        <Point X="21.573" Y="11.748" Type="JumpEnd" />
-        <Point X="20.333" Y="11.748" Type="JumpStart" />
-        <Point X="20.167" Y="11.748" Type="JumpEnd" />
-        <Point X="17.838" Y="11.748" Type="JumpStart" />
-        <Point X="17.636" Y="11.748" Type="JumpEnd" />
-        <Point X="16.708" Y="11.748" Type="JumpStart" />
-        <Point X="16.542" Y="11.748" Type="JumpEnd" />
-        <Point X="15.25" Y="11.748" />
+        <Point X="24.812" Y="12.5" />
+        <Point X="24.812" Y="11.75" />
+        <Point X="23.146" Y="11.75" Type="JumpStart" />
+        <Point X="22.979" Y="11.75" Type="JumpEnd" />
+        <Point X="21.89" Y="11.75" Type="JumpStart" />
+        <Point X="21.724" Y="11.75" Type="JumpEnd" />
+        <Point X="20.333" Y="11.75" Type="JumpStart" />
+        <Point X="20.167" Y="11.75" Type="JumpEnd" />
+        <Point X="17.838" Y="11.75" Type="JumpStart" />
+        <Point X="17.636" Y="11.75" Type="JumpEnd" />
+        <Point X="16.708" Y="11.75" Type="JumpStart" />
+        <Point X="16.542" Y="11.75" Type="JumpEnd" />
+        <Point X="15.25" Y="11.75" />
       </Path>
     </AssociationLine>
     <AssociationLine Name="Tamaño" Type="Tp1_Savino.Caracteristicas" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="26" Y="13.452" />
-        <Point X="33.417" Y="13.452" />
-        <Point X="33.417" Y="11.93" />
+        <Point X="28.75" Y="13.597" />
+        <Point X="29.917" Y="13.597" Type="JumpStart" />
+        <Point X="30.083" Y="13.597" Type="JumpEnd" />
+        <Point X="31.667" Y="13.597" Type="JumpStart" />
+        <Point X="31.833" Y="13.597" Type="JumpEnd" />
+        <Point X="33.417" Y="13.597" Type="JumpStart" />
+        <Point X="33.583" Y="13.597" Type="JumpEnd" />
+        <Point X="35.125" Y="13.597" Type="JumpStart" />
+        <Point X="35.292" Y="13.597" Type="JumpEnd" />
+        <Point X="35.917" Y="13.597" />
+        <Point X="35.917" Y="11.93" />
       </Path>
     </AssociationLine>
     <TypeIdentifier>
-      <HashCode>ABAAAIQAAAAAAAAIACAhgAAAAAAAAAQAAAAEAAAACAA=</HashCode>
+      <HashCode>ABAAgIQAAAABAAAIACAhgAAAAAAAAAQAAAAEAAAACAA=</HashCode>
       <FileName>Deposito.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -44,6 +53,25 @@
   </Class>
   <Class Name="Tp1_Savino.Zona">
     <Position X="19.25" Y="12" Width="2" />
+    <AssociationLine Name="Tamaño" Type="Tp1_Savino.Caracteristicas" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="20.25" Y="12" />
+        <Point X="20.25" Y="11.382" />
+        <Point X="21.724" Y="11.382" Type="JumpStart" />
+        <Point X="21.89" Y="11.382" Type="JumpEnd" />
+        <Point X="22.979" Y="11.382" Type="JumpStart" />
+        <Point X="23.146" Y="11.382" Type="JumpEnd" />
+        <Point X="25.417" Y="11.382" Type="JumpStart" />
+        <Point X="25.583" Y="11.382" Type="JumpEnd" />
+        <Point X="30.25" Y="11.382" />
+        <Point X="30.25" Y="10.812" />
+        <Point X="31.135" Y="10.812" Type="JumpStart" />
+        <Point X="31.302" Y="10.812" Type="JumpEnd" />
+        <Point X="31.917" Y="10.812" Type="JumpStart" />
+        <Point X="32.083" Y="10.812" Type="JumpEnd" />
+        <Point X="34.5" Y="10.812" />
+      </Path>
+    </AssociationLine>
     <TypeIdentifier>
       <HashCode>AAAAAIAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Zona.cs</FileName>
@@ -57,8 +85,8 @@
     <AssociationLine Name="Almacen" Type="Tp1_Savino.Almacen" FixedFromPoint="true" FixedToPoint="true">
       <Path>
         <Point X="22.75" Y="10.423" />
-        <Point X="21.656" Y="10.423" />
-        <Point X="21.656" Y="13.75" />
+        <Point X="21.807" Y="10.423" />
+        <Point X="21.807" Y="13.75" />
       </Path>
     </AssociationLine>
     <TypeIdentifier>
@@ -96,19 +124,17 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="Tp1_Savino.Almacen">
-    <Position X="20.75" Y="13.75" Width="1.5" />
+    <Position X="20.75" Y="13.75" Width="1.75" />
     <AssociationLine Name="Operario" Type="Tp1_Savino.Operario" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
       <Path>
         <Point X="20.75" Y="14.501" />
-        <Point X="20.27" Y="14.501" />
-        <Point X="20.27" Y="14.626" />
-        <Point X="19.037" Y="14.626" />
-        <Point X="19.037" Y="15.188" />
-        <Point X="17.838" Y="15.188" Type="JumpStart" />
-        <Point X="17.636" Y="15.188" Type="JumpEnd" />
-        <Point X="16.708" Y="15.188" Type="JumpStart" />
-        <Point X="16.542" Y="15.188" Type="JumpEnd" />
-        <Point X="15.75" Y="15.188" />
+        <Point X="20.375" Y="14.501" />
+        <Point X="20.375" Y="15.312" />
+        <Point X="17.838" Y="15.312" Type="JumpStart" />
+        <Point X="17.636" Y="15.312" Type="JumpEnd" />
+        <Point X="16.708" Y="15.312" Type="JumpStart" />
+        <Point X="16.542" Y="15.312" Type="JumpEnd" />
+        <Point X="15.75" Y="15.312" />
       </Path>
     </AssociationLine>
     <TypeIdentifier>
@@ -123,8 +149,8 @@
     <Position X="19.5" Y="19" Width="1.5" />
     <InheritanceLine Type="Tp1_Savino.Almacen" FixedToPoint="true">
       <Path>
-        <Point X="21.5" Y="15.434" />
-        <Point X="21.5" Y="19.25" />
+        <Point X="21.625" Y="15.434" />
+        <Point X="21.625" Y="19.25" />
         <Point X="21" Y="19.25" />
       </Path>
     </InheritanceLine>
@@ -140,8 +166,8 @@
     <Position X="19.5" Y="17.75" Width="1.5" />
     <InheritanceLine Type="Tp1_Savino.Almacen" FixedToPoint="true">
       <Path>
-        <Point X="21.5" Y="15.434" />
-        <Point X="21.5" Y="18" />
+        <Point X="21.625" Y="15.434" />
+        <Point X="21.625" Y="18" />
         <Point X="21" Y="18" />
       </Path>
     </InheritanceLine>
@@ -157,8 +183,8 @@
     <Position X="19.5" Y="16.5" Width="1.5" />
     <InheritanceLine Type="Tp1_Savino.Almacen" FixedToPoint="true">
       <Path>
-        <Point X="21.5" Y="15.434" />
-        <Point X="21.5" Y="17.188" />
+        <Point X="21.625" Y="15.434" />
+        <Point X="21.625" Y="17.188" />
         <Point X="21" Y="17.188" />
       </Path>
     </InheritanceLine>
@@ -181,7 +207,7 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="Tp1_Savino.TipoObjeto">
-    <Position X="22.75" Y="5.75" Width="1.5" />
+    <Position X="22.75" Y="5.75" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAIAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TipoObjeto.cs</FileName>
@@ -191,7 +217,7 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="Tp1_Savino.TipoAlmacenamiento">
-    <Position X="28" Y="11" Width="2.75" />
+    <Position X="30.5" Y="11" Width="3" />
     <TypeIdentifier>
       <HashCode>AAACAIAAAAAAAAAAAAAAAADQGAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TipoAlmacenamiento.cs</FileName>
@@ -202,47 +228,37 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="Tp1_Savino.Bolsa" Collapsed="true">
-    <Position X="26.75" Y="13.75" Width="1.5" />
+    <Position X="29.25" Y="13.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Bolsa.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Tp1_Savino.Caja" Collapsed="true">
-    <Position X="28.5" Y="13.75" Width="1.5" />
+    <Position X="31" Y="13.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Caja.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Tp1_Savino.Container" Collapsed="true">
-    <Position X="30.25" Y="13.75" Width="1.5" />
+    <Position X="32.75" Y="13.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Container.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Tp1_Savino.Caracteristicas">
-    <Position X="32" Y="10.25" Width="2" />
-    <AssociationLine Name="Vehiculo" Type="Tp1_Savino.Vehiculo" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="33.667" Y="11.93" />
-        <Point X="33.667" Y="20.781" />
-        <Point X="24.25" Y="20.781" />
-      </Path>
-    </AssociationLine>
+    <Position X="34.5" Y="10.25" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAEAAEBAAAAAAAAAAAAAAAAAAQQAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAEAAEBAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
       <FileName>Tamaño.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Vehiculo" />
-    </ShowAsAssociation>
   </Class>
   <Class Name="Tp1_Savino.Persona">
     <Position X="12.75" Y="11" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAgAAAAAAAgAAAAAEAAAAAAABAAAAAAAI=</HashCode>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAgAAAAgEAAAAAQABAAAAAAAI=</HashCode>
       <FileName>Persona.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -371,9 +387,12 @@
   <Class Name="Tp1_Savino.Vehiculo" Collapsed="true">
     <Position X="22.75" Y="20.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
       <FileName>Vehiculo.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Caracteristicas" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="Tp1_Savino.Autoelevador" Collapsed="true">
     <Position X="21" Y="21.5" Width="1.5" />
@@ -520,16 +539,16 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Tp1_Savino.CajaSeguridad">
-    <Position X="34.25" Y="14.75" Width="2.5" />
+    <Position X="36.75" Y="14.75" Width="2.5" />
     <InheritanceLine Type="Tp1_Savino.Caja" FixedToPoint="true">
       <Path>
-        <Point X="29.25" Y="14.441" />
-        <Point X="29.25" Y="15.797" />
-        <Point X="30.917" Y="15.797" Type="JumpStart" />
-        <Point X="31.083" Y="15.797" Type="JumpEnd" />
-        <Point X="33.584" Y="15.797" Type="JumpStart" />
-        <Point X="33.75" Y="15.797" Type="JumpEnd" />
-        <Point X="34.25" Y="15.797" />
+        <Point X="31.75" Y="14.441" />
+        <Point X="31.75" Y="15.797" />
+        <Point X="33.229" Y="15.797" Type="JumpStart" />
+        <Point X="33.396" Y="15.797" Type="JumpEnd" />
+        <Point X="35.125" Y="15.797" Type="JumpStart" />
+        <Point X="35.292" Y="15.797" Type="JumpEnd" />
+        <Point X="36.75" Y="15.797" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
@@ -538,18 +557,18 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Tp1_Savino.CajaMadera">
-    <Position X="34.25" Y="13.5" Width="1.5" />
+    <Position X="36.75" Y="13.5" Width="1.5" />
     <InheritanceLine Type="Tp1_Savino.Caja" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="29.25" Y="14.441" />
-        <Point X="29.25" Y="15.409" />
-        <Point X="30.917" Y="15.409" Type="JumpStart" />
-        <Point X="31.083" Y="15.409" Type="JumpEnd" />
-        <Point X="33.584" Y="15.409" Type="JumpStart" />
-        <Point X="33.75" Y="15.409" Type="JumpEnd" />
-        <Point X="33.875" Y="15.409" />
-        <Point X="33.875" Y="14" />
-        <Point X="34.25" Y="14" />
+        <Point X="31.75" Y="14.441" />
+        <Point X="31.75" Y="15.79" />
+        <Point X="33.229" Y="15.79" Type="JumpStart" />
+        <Point X="33.396" Y="15.79" Type="JumpEnd" />
+        <Point X="35.125" Y="15.79" Type="JumpStart" />
+        <Point X="35.292" Y="15.79" Type="JumpEnd" />
+        <Point X="36.518" Y="15.79" />
+        <Point X="36.518" Y="14" />
+        <Point X="36.75" Y="14" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>

@@ -8,14 +8,6 @@ namespace Tp1_Savino
     public class Caracteristicas
     {
 
-        public Vehiculo Vehiculo
-        {
-            get => default(Vehiculo);
-            set
-            {
-            }
-        }
-
         public int Alto
         {
             get => default(int);

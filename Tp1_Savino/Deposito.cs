@@ -82,5 +82,15 @@ namespace Tp1_Savino
         {
             throw new System.NotImplementedException();
         }
+
+        public void NuevoEmpleado()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void RealizarTransporte(Almacen alm, int idobjeto, Vehiculo trans)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
