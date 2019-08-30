@@ -57,5 +57,10 @@ namespace Tp1_Savino
         {
             throw new System.NotImplementedException();
         }
+
+        public void RevisarTipoObjeto(Objeto obj)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
